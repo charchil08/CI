@@ -1,57 +1,22 @@
-.carousel {
-  width: 1344px;
-  height: 983px;
-}
-.carousel .carousel-caption h5 {
-  font-size: 43px;
-  /* top: 643px;
-    left: 159px; */
-  width: 592px;
-  height: 109px;
-  font-family: "Noto Sans", sans-serif;
-  line-height: 1.5;
-  text-align: left;
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200&display=swap");
+
+:root {
+  --clr-orange: #f88634;
 }
 
-.carousel .carousel-caption p {
-  /* top: 776px;
-    left: 159px; */
-  width: 849px;
-  height: 120px;
+* {
   font-family: "Noto Sans", sans-serif;
-  text-align: left;
-  font-size: 16px;
-}
-.form_container {
-  height: 983px;
-  width: 402px;
-}
-.title {
-  font-size: 22px;
-}
-.caption {
-  font-size: 14px;
 }
 
-label {
-  font-family: "Noto Sans", sans-serif;
-  font-size: 16px;
-  color: #414141;
+a {
+  text-decoration: none;
+}
+.carousel h1 {
   font-weight: bold;
 }
-
-.input_control {
-  font-family: "Noto Sans", sans-serif;
-  font-size: 16px;
-  color: #414141;
-  width: 401px;
-  height: 56px;
+.custom_btn {
   font-weight: 600;
-}
-
-.btn-outline-warning {
-  height: 48px;
   border-radius: 24px;
-  border: 2px solid #f88634;
-  color: #f88634;
+  border: 1px solid var(--clr-orange);
+  color: var(--clr-orange);
 }
